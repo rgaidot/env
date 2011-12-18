@@ -221,7 +221,5 @@ ulimit -S -n 1024
 export EDITOR=vim
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-if [[ -s .rvmrc ]] ; then source .rvmrc ;
 
 prompt
-
